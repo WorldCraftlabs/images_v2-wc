@@ -1,7 +1,7 @@
 {
-"Image": "quay.io/skyport/java:21",
+"Image": "quay.io/WorldCraft/java:21",
   "AltImages": [
-    "quay.io/skyport/java:21",
+    "quay.io/WorldCraft/java:21",
     "docker.io/privt/java:18",
     "docker.io/privt/java:17"
   ],
@@ -18,7 +18,7 @@
         "Path": "server.jar"
       },
       {
-        "Uri": "https://raw.githubusercontent.com/skyportlabs/images_v2/main/spigotmc/server.properties",
+        "Uri": "https://raw.githubusercontent.com/WorldCraftlabs/images_v2-wc/refs/heads/main/spigotmc/server.properties",
         "Path": "server.properties"
       }
     ]
@@ -37,9 +37,9 @@
   },
   "Name": "Minecraft Java: PaperMC",
   "Description": "PaperMC is an optimized, high-performance fork of SpigotMC for Minecraft servers. It aims to improve performance and stability by offering additional features, enhanced configuration options, and bug fixes. Known for its robust plugin compatibility and active development community, PaperMC is a preferred choice for server administrators looking to enhance their Minecraft multiplayer experience.",
-  "Author": "info@skyport.dev",
-  "AuthorName": "Skyport Labs",
+  "Author": "info@WorldCraft.dev",
+  "AuthorName": "WorldCraft Labs",
   "Meta": {
-    "Version": "Skyport Images v2"
+    "Version": "WorldCraft Images v2"
   }
 }
